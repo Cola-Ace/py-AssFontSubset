@@ -4,4 +4,6 @@ A lightweight Gradio GUI for subsetting ASS subtitle fonts using FontTools. Redu
 Usage:
 `python3 subtitle_subsetter.py`
 
-You need to install <https://github.com/fonttools/fonttools> and <https://github.com/gradio-app/gradio> before you use it.
+# Requirements
+- <https://github.com/fonttools/fonttools>
+- <https://github.com/gradio-app/gradio>
