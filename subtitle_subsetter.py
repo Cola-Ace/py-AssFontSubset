@@ -238,7 +238,7 @@ def generate_random_name():
 def subset_font(font_path, chars, output_path, random_name):
     try:
         # 尝试处理 TTC 文件，使用不同的字体编号
-        if font_path.endswith('.ttc') or font_path.endswith('.TTC'):
+        if font_path.endswith(('.ttc', '.TTC')):
             # 尝试不同的字体编号
             for font_number in range(5):  # 尝试前 5 个字体
                 try:
