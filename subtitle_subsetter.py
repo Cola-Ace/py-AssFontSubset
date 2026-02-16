@@ -262,6 +262,7 @@ def subset_font(font_path, chars, output_path, random_name):
                     else:
                         print(f"子集化字体时出错: {e}")
                         return False
+            return False
         else:
             # 处理普通字体文件
             font = TTFont(font_path)
